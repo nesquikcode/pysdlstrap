@@ -1,4 +1,4 @@
-import sdl2.sdlimage as sdlimage
+from sdl2 import sdlimage
 import gc
 
 class ResourceCollector:
@@ -31,3 +31,4 @@ class ResourceManager:
 
     def clear(self):
         self.collector.clear()
+    
